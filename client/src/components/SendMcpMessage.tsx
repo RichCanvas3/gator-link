@@ -494,10 +494,10 @@ async function getBalance(address: string) {
 
   return (
     <div>
-      <h2> Gator Lawn Service </h2>
+      <h2> Daisy's Home Cleaning Service </h2>
 
       <button className='service-button' onClick={handleSend} disabled={loading}>
-        {loading ? 'Sending...' : 'Send MCP Lawn Service Request and Payment'}
+        {loading ? 'Sending...' : "Request & Pay for Daisy's Home Cleaning Service"}
       </button>
 
       {response && (

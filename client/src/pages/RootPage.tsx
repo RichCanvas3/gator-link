@@ -4,18 +4,18 @@ import '../custom-styles.css'
 const RootPage: React.FC = () => {
   return (
     <>
-      <h2> Introducing the Gator Link Tech Framework </h2>
+      <h2> Introducing the Service Marketplace App </h2>
 
       <h3> Revolutionizing how local services are booked, paid, and shared. </h3>
 
-      <p> The Gator Link Tech Framework is a cutting-edge infrastructure that powers seamless transactions and smart contract automation between customers, service providers, and third-party marketplaces. Imagine it as the blockchain-native backbone for the "Amazon of House Services." </p>
+      <p> The Service Marketplace is a cutting-edge infrastructure that powers seamless transactions and smart contract automation between customers, service providers, and third-party marketplaces. Imagine it as the blockchain-native backbone for the "Amazon of House Services." </p>
 
       <div style={{display: 'flex'}}>
         <ShoppingCartIcon width='30px' fill='teal' style={{marginRight: '10px'}}/>
         <h3> For Marketplaces </h3>
       </div>
 
-      <p> Marketplaces like third-party <b>House Services Sites</b> (e.g., home maintenance platforms) integrate Gator Link to: </p>
+      <p> Marketplaces like third-party <b>House Services Sites</b> (e.g., home maintenance platforms) integrate Service Marketplace to: </p>
 
       <ul>
         <li> Onboard and authenticate customers via EOA wallets. </li>
@@ -64,7 +64,7 @@ const RootPage: React.FC = () => {
         <li> <b>Revenue Sharing Smart Logic</b> gives third parties a real-time share of the sale. </li>
       </ul>
 
-      <p> <b>Gator Link</b> isn't just tech. It's the invisible trust engine behind service economies of the future - on-chain, programmable, and decentralized. Whether you're a platform, provider, or partner, Gator Link makes every link in the value chain smarter. </p>
+      <p> <b>Service Marketplace</b> isn't just tech. It's the invisible trust engine behind service economies of the future - on-chain, programmable, and decentralized. Whether you're a platform, provider, or partner, Service Marketplace makes every link in the value chain smarter. </p>
     </>
   );
 };
