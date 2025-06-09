@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   return (
     <div style={{ maxWidth: '100vw'}}>
       <div className='main-header'>
-        <h1 className='main-header-text'>🐊 Service Marketplace App </h1>
+        <h1 className='main-header-text'> Gator Link 🐊 </h1>
       </div>
 
       <nav className='main-nav'>
